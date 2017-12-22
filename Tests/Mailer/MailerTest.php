@@ -90,7 +90,7 @@ class MailerTest extends TestCase
             $this->getMockBuilder('Symfony\Component\Routing\Generator\UrlGeneratorInterface')->getMock(),
             $this->getTemplating(),
             array(
-                'confirmation.template' => 'foo',
+                'confirmation.template' => 'twig',
                 'resetting.template' => 'foo',
                 'from_email' => array(
                     'confirmation' => 'foo@example.com',
